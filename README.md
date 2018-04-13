@@ -5,7 +5,7 @@ Practising css animation with vanilla javascript.
 using code like
 CSS:
 
-```
+```css
 .active :last-child {
       transform: translateY(100%);
 }
@@ -13,7 +13,7 @@ CSS:
 
 JS:
 
-```
+```javascript
 function toggleActive(e) {
     console.log(e.propertyName);
     if (e.propertyName.includes('flex')) {
